@@ -29,40 +29,37 @@ nav ul li a {
 
 .container-slide{
     display:flex;
-    justify-content:space-between ;
-    width: 45vw;
-    height: 70vh;
+    justify-content:center;
+    width: 100vw;
+    height: 65vh;
     background-color: rgb(137, 194, 194);
-    margin: 10vh auto;
     border-radius: 8px;
     box-shadow: 0 10px 30px black;
 }
 
 .container-items {
-    position: absolute;
     display: flex;
-    width: 45vw;
-    height: 70vh;
-    border-radius: 10px;
+    justify-content: center;
+    width: 100vw;
+    height: 65vh;
     transition: all 1s;
     overflow: hidden;
 }
 
 
 .item {
-    width: 45vw;
-    height: 70vh;
+    width: 100vw;
+    height: 65vh;
     transition: all 1s;
 }
 
 .item:first-child{
-    margin-left: -100%;
+    margin-left: 0%;
 }
 
 .item img {
-    width: 45vw;
-    height: 70vh;
-    border-radius: 10px;
+    width: 40vw;
+    height: 65vh;
 }
 
 .action-button {
@@ -73,7 +70,7 @@ nav ul li a {
     justify-content: center;
     color: black;
     user-select: none;
-    width: 20px;
+    width: auto;
 }
 
 .action-button:hover{
@@ -83,3 +80,71 @@ nav ul li a {
     border-radius: 10px;
     color: #fff;
 }
+
+.arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-country {
+    padding: 10px;
+}
+
+#previous {
+    cursor: pointer;
+    background-color: #A2D0B1;
+    padding: 5px;
+}
+
+#next{
+    cursor: pointer;
+    background-color: red;
+    padding: 5px;
+}
+
+.title-fun-facts {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.content-flags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+article {
+    width: 33vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.flag-part-1 {
+    background-color: #A2D0B1;
+    padding: 15px;
+}
+
+.flag-part-2 {
+    padding: 15px;
+}
+
+.flag-part-3 {
+    background-color: red;
+    padding: 15px;
+}
+
+.title-culinary {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.content-culinary {
+   display: block;
+}
+
