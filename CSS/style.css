@@ -10,7 +10,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     padding: 10px;
-    background-color: #A2D0B1;
+    background-color: #f8c669;
 }
 
 nav ul {
@@ -141,10 +141,74 @@ article {
 .title-culinary {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 .content-culinary {
-   display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fad590;
 }
+
+.gelato div {
+    width: 20vw;
+    background-color: rgb(247, 148, 148);
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 10px;
+
+}
+
+.pasta div {
+    width: 20vw;
+    background-color: rgb(249, 240, 162);
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.pizza div {
+    width: 18vw;
+    background-color: rgb(193, 247, 148);
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.cheese div {
+    width: 30vw;
+    background-color: rgb(169, 148, 247);
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.gelato img {
+    width: 16vw;
+}
+
+.pasta img {
+    width: 16vw;
+}
+
+.pizza img{
+    width: 14vw;
+}
+
+.cheese img{
+    width: 25vw;
+}
+
+footer {
+    padding-top: 25px;
+    text-align: center;
+}
+
 
