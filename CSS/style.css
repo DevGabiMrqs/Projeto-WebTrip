@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
 }
 
 nav {
@@ -207,8 +208,9 @@ article {
 }
 
 footer {
-    padding-top: 25px;
+    margin-top: 25px;
     text-align: center;
+    background-color: #f8c669;
 }
 
 
